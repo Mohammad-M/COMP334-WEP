@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chapter 7</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootproj.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="topHeaderRow">
+            <div class="navbar navbar-default">
+                <div class="navbar navbar-inverse headNav" >
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-star"></span> Favorites </a></li>
+                    </ul>
+                </div>
+            
+        
+        <!-- end topHeaderRow -->
+
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar navbar-left">
+						<a class="navbar-brand" href="#" style="font-size:32px;" >Share your travels</a>
+				   <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li class="dropdown">
+                           <a  class="dropdown-toggle" data-toggle="dropdown">Browse</a>
+                            <ul class="dropdown-menu" >
+                                <li><a href="#">Countries</a></li>
+                                <li><a href="#">Images</a></li>
+                                <li><a href="#">Posts</a></li>
+                            </ul>
+                        </li>
+                    
+
+						<li><a href="#">
+							<form >
+								<div >
+									<input type="text"  placeholder="Search">
+									<button class="btn btn-danger" type="submit">Submit</button>
+								</div>
+							</form>
+						</a></li>
+					</ul>
+                </div>
+
+
+			</div>
+        </div>
+	</header>
+
+
+    <!-- Page Content -->
+    <main >
+	<div class="row">
+		<div class="col-md-2">
+			<aside>
+				<div class="panel-body">
+
+					<div class="panel panel-info ">
+						<div class="panel-heading ">
+							<div class="panel-title">Continents</div>
+							</div>
+								
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#">Africa</a></li>
+									<li class="list-group-item"><a href="#">Asia</a></li>
+									<li class="list-group-item"><a href="#">Europe</a></li>
+									<li class="list-group-item"><a href="#">North America</a></li>
+									<li class="list-group-item"><a href="#">South America</a></li>
+								</ul>
+								
+					</div>
+
+						<div class="panel panel-info">
+						<div class="panel-heading">
+							<div class="panel-title">Popular</div>
+						</div>
+						
+							<ul class="list-group">
+								<li class="list-group-item"><a href="#">Canada</a></li>
+								<li class="list-group-item"><a href="#">France</a></li>
+								<li class="list-group-item"><a href="#">Italy</a></li>
+								<li class="list-group-item"><a href="#">Germany</a></li>
+								<li class="list-group-item"><a href="#">Ghana</a></li>
+								<li class="list-group-item"><a href="#">Greece</a></li>
+								<li class="list-group-item"><a href="#">Hungary</a></li>
+								<li class="list-group-item"><a href="#">Spain</a></li>
+								<li class="list-group-item"><a href="#">United States</a></li>
+								<li class="list-group-item"><a href="#">United Kingdom</a></li>
+							</ul>
+						
+						</div>
+					
+				</div>
+		
+
+            </aside>
+		</div>
+	
+            <div class="col-md-10" >
+                    <div class="col-md-8">
+						<div class="panel-body" class="panel-body">
+							<img  src="images/8711645510.jpg" alt="Temple of Hephaistos">
+							<p >Located on the western perimeter of Agora in Athens. Built in 460-415 BCE, it is the best preserved temple of antiquity. </p>
+						</div>
+					</div>
+
+                    <div class="col-md-4">
+                        <h2>Temple of Hephaistos</h2>
+
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <ul class="panel-item" style="list-style-type:none">
+                                    <li>By: <a href="#">Mohammad M.Mohammad</a></li>
+                                    <li>Country: <a href="#">Palestine</a></li>
+                                    <li>BZU-ID: <a href="#">1141648</a></li>
+                                    <li>Taken on: August 8, 2017</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="btn-group btn-group-justified ">
+                            
+                                <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-heart "></span></a>
+                          
+                            
+                                <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-save"></span></a>
+                            
+                            
+                                <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-print"></span></a>
+                            
+                            
+                                <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-comment"></span></a>
+                            
+						</div>
+                        
+
+                        <h4>Tags</h4>
+                        <div class="panel panel-default">
+							<div class="panel-body">
+                            <div id="tags">
+								<div>	
+									<span class="label label-default" >ancient</span>
+									<span class="label label-default" >garden</span>
+									<span class="label label-default" >hill</span>
+									<span class="label label-default" >ruins</span>
+								</div>
+								<br>
+								<div>
+									<span class="label label-default" >sunshine</span>
+									<span class="label label-default" >temple</span>
+								</div>
+                            </div>
+							</div>
+                        </div>
+
+                    </div>
+               
+
+
+
+            <!-- Related Photos -->
+            <div class="col-md-12">
+
+                <div >
+                    <h3>Related Photos</h3>
+                </div>
+			</div>
+                <div class="col-md-3">
+                   <div class="thumbnail">
+                        <a href="#" >
+                            <img src="images/related/8710320515.jpg" alt="">
+                        </a>
+                        <div class="caption" align="middle">
+                            <h6>Ekklisia Agii Isidori</h6>
+                            <button type="button" class="btn btn-success btn-xs"  ><span class="glyphicon glyphicon-eye-open"></span> View</button>
+                            <button  type="button" class="btn btn-danger btn-xs" ><span class="glyphicon glyphicon-heart"></span> Favorite</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                   <div class="thumbnail">
+                        <a href="#" >
+                            <img src="images/related/8710513053.jpg" alt="">
+                        </a>
+                        <div class="caption" align="middle">
+                            <h6>Theatre of Dionysos</h6>
+                            <button type="button" class="btn btn-success btn-xs"  ><span class="glyphicon glyphicon-eye-open"></span> View</button>
+                            <button  type="button" class="btn btn-danger btn-xs" ><span class="glyphicon glyphicon-heart"></span> Favorite</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                   <div class="thumbnail">
+                        <a href="#" >
+                            <img  src="images/related/8711623884.jpg" alt="">
+                        </a>
+                        <div class="caption"align="middle">
+                            <h6>Roman Agora</h6>
+                            <button type="button" class="btn btn-success btn-xs"  ><span class="glyphicon glyphicon-eye-open"></span> View</button>
+                            <button  type="button" class="btn btn-danger btn-xs" ><span class="glyphicon glyphicon-heart"></span> Favorite</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                   <div class="thumbnail">
+                        <a href="#" >
+                            <img  src="images/related/9498388516.jpg" alt="">
+                        </a>
+                        <div class="caption"align="middle">
+                            <h6>Temple of Asclepius</h6>
+                            <button type="button" class="btn btn-success btn-xs"  ><span class="glyphicon glyphicon-eye-open"></span> View</button>
+                            <button  type="button" class="btn btn-danger btn-xs" ><span class="glyphicon glyphicon-heart"></span> Favorite</button>
+                        </div>
+                    </div>
+                </div>
+
+    </div>        
+</div>
+    </main>
+
+    <footer class="footer">
+       <div class="navbar navbar-default">
+
+                <div class="col-md-6">
+				
+					<div>
+                    <h4 style="color:white">Share YourTravels</h4>
+                    <p style="color:white">This is a case study from the textbook <em>Fundamentals of Web Development</em>. This book is published by Pearson Ed, and is the only textbook that covers the essentials of the entire field of contemporary web development. </p>
+                    </div>
+					<div >
+					
+                        <div class="col-md-6" style="color:white">
+							
+								<h5 style="color:white">Headquarters</h5>
+								Mount Royal University<br>
+								4825 Mount Royal Gate SW<br>
+								Calgary, Canada, T3E 6K6
+                        </div>
+
+                        <div class="col-md-6">
+                            <h5 style="color:white">Follow Us</h5>
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <span class="glyphicon glyphicon-camera"></span>
+                            </button>
+                            <button type="button" class="btn btn-info btn-lg">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </button>
+                            <button type="button" class="btn btn-success btn-lg">
+                                <span class="glyphicon glyphicon-tag"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-lg">
+                                <span class="glyphicon glyphicon-bookmark"></span>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <span class="glyphicon glyphicon-fire"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+					<div class="container" >
+						<h5 style="color:white"><span class="glyphicon glyphicon-pencil"></span> Recent Posts</h5>
+						<div class="media">
+							<div class="media-left">
+							  <a  href="#">
+								<img  src="images/footer/6592294487.jpg" alt="..." class="media-object img-circle" style="width:40px">
+							  </a>
+							 </div>
+						  <div class="media-body">
+							<p class="media-heading"><a href="#">Calgary in the Snow</a></p>
+							<em style="color:white">5 minutes ago</em>
+							<hr>
+						  </div>
+						</div>
+						<div class="media">
+						  
+							<div class="media-left">
+							<a href="#">
+								<img  src="images/footer/6114904363.jpg" alt="..." class="media-object img-circle" style="width:40px">
+							</a>
+							</div>
+						  
+						  <div class="media-body">
+							<p class="media-heading"><a href="#">Mountain Climbing</a></p>
+							<em style="color:white">11 minutes ago</em>
+							<hr>
+						  </div>
+						</div>
+						<div class="media">
+						  <a href="#">
+							<div class="media-left">
+								<img  src="images/footer/5856697109.jpg" alt="..." class="media-object img-circle" style="width:40px">
+							  </a>
+							</div>
+						  <div class="media-body">
+							<p class="media-heading"><a href="#">Nova Scotia</a></p>
+							<em style="color:white">23 minutes ago</em>
+						  </div>
+						</div>
+										
+						
+					</div>
+                </div>
+                <div class="col-md-3">
+
+                    <h5 style="color:white"><span class="glyphicon glyphicon-envelope"></span> Contact us</h5>
+                    <form class="form-group">
+                      <div >
+                        <label class="sr-only" for="name">Name</label>
+                        <input class="form-control" type="text"  name="email" placeholder="Enter name ...">
+                      </div>
+					  <br>
+                      <div >
+                        <label class="sr-only" for="email">Email</label>
+                        <input class="form-control" type="email"  name="email" placeholder="Enter email ...">
+                      </div>
+					  <br>
+                      <div >
+                        <label class="sr-only" for="email">Email</label>
+                        <textarea class="form-control" rows="3" placeholder="Enter message ..."></textarea>
+                      </div>
+					  <br>
+                      <button type="submit" class="btn btn-danger btn-block" >Submit</button>
+                    </form>
+
+                </div>
+		
+		
+		<div class="col-md-12">
+        
+			<div class="navbar navbar-inverse botNav">
+			
+				<div align="middle">
+					<p style="color:white">Copyright &copy; 2017 Creative Commons ShareAlike</p>
+					<p><a href="#">Home</a> / <a href="#">About</a> / <a href="#">Contact</a> / <a href="#">Browse</a></p>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+    </footer>
+
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>

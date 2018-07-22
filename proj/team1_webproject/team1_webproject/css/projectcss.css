@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid black;*/
+}
+
+h1, h2, h3, h4, h5, h6, p, div, section, main, article,label,legend {
+    font-family: 'Copse', serif;
+}
+
+i[class^="fa"] {
+    font-size: 150%;
+    padding-right: 3px;
+}
+#regForm .eaccount{
+    display: none;
+}
+#regForm input:not([type="submit"]){
+    border: 2px solid black;
+    padding: 3px;
+}
+
+button, input[type="submit"]{
+    border: 4px groove green;
+    padding: 4px;
+}
+
+.error {
+    background: #FFCDD2 url(error.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #FF5252;
+    border-color: #FF1744;    
+}
+
+.main {
+    background-color: #8591d5;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+aside {
+    width: 100%;
+    padding: 0%;
+	border: 2px solid steelblue;
+}
+.panhed {
+		background-color: steelblue ;
+		color: white;
+		width: 100%;
+		text-align: center;
+		font-weight: bold;
+		font-size: 200%;
+	}
+	.pancont{
+		margin: 1%;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	
+	.asside-input {
+	  width: 100%;
+	  padding: 5px;
+	  box-sizing: border-box;
+	  font-size: 14px;
+	  margin-bottom: 10px;
+	}
+
+	.asside-btn {
+	  padding: 5px;
+	  font-size: 14px;
+	  margin-bottom: 10px;
+	}
+	.asside-default {
+	  padding: 10px;
+	  background: steelblue;
+	  border: 0;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  width: 100%;
+	}
+	
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    /* For desktop: */
+    .main {
+        margin-left: 21%;
+        margin-right: 21%;
+    }
+    aside {
+        position: absolute;
+        top: 60px;
+        width: 20%;
+        border: 2px solid steelblue;
+    }
+	
+    .rightpan {
+        right: 0;
+    }
+    .leftpan {
+        left: 0;
+    }
+	
+	
+}

@@ -1,0 +1,13 @@
+.headNav {min-height:30px}
+.headNav .navbar-brand,
+.headNav .navbar-nav>li>a {padding-top:5px; padding-bottom:5px}
+.headNav .navbar-brand {height: 30px}
+.headNav .navbar-toggle {margin: 3px 9px 3px 0px; padding: 4px 4px 4px 4px;}
+.headNav .navbar-toggle .icon-bar {width: 30px;}
+
+.botNav {min-height:30px}
+.botNav .navbar-brand,
+.botNav .navbar-nav>li>a {padding-top:5px; padding-bottom:5px}
+.botNav .navbar-brand {height: 16px}
+.botNav .navbar-toggle {margin:4px 4px 4px 4px; padding: 3px 9px 3px 0px;}
+.botNav .navbar-toggle .icon-bar {width: 30px;}

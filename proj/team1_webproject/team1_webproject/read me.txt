@@ -1,0 +1,5 @@
+database user: c22team1
+database password: comp334!
+
+main site for project:
+http://web1140155.studentswebprojects.ritaj.ps/test/main.php

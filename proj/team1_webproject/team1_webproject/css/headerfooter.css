@@ -1,0 +1,171 @@
+.navbar {
+    background-color: #02a6c2;
+    margin: 0;
+}
+
+.navbar div {
+    display: inline-block;
+    height: 100%;
+}
+
+.navbar .right span {
+    display: flex;
+}
+
+.navbar .right span i {
+    font-size: 400%;
+}
+
+.logo {
+    text-decoration: none;
+    text-shadow: 0 0 1px #FF0000, 0 0 2px #0000FF;
+    color: white;
+    display: block;
+    margin: 10px;
+    transition: all 0.5s;
+    font-family: 'Fascinate', cursive;
+}
+
+.logo:hover {
+    color: rgb(20, 42, 59);
+    text-shadow: 0 0 1px #FF0000, 0 0 100px #0000FF;
+}
+
+div.right li {
+    float: left;
+    height: 100%;
+    display: inherit;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: rgba(20, 42, 59, 0.96);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: grid;
+    justify-content: center;
+}
+
+.sidenav li:first-child {
+    position: fixed;
+    right: 2000px;
+    width: 25%;
+    height: 30%;
+    font-size: 400%;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.sidenav li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    height: 100%;
+}
+
+.sidenav li a:not(#close){
+    font-size: 150%;
+}
+
+.sidenav li a i{
+    font-size: 100%;
+}
+
+.hidden{
+    width: 0%;
+}
+
+.shown{
+    width: 100%;
+}
+
+#close:before {
+    content: "\00d7";
+}
+
+i:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+#menubutton i{
+    transform: none;
+    color: rgb(20, 42, 59);
+    transition: all 1s;
+}
+#menubutton i:hover{
+    text-shadow: 0 0 1px #FF0000, 0 0 100px #0000FF;
+}
+
+footer {
+    background-color: #2f3f9e;
+	 bottom: 0;
+}
+.footer {
+   position:flex;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  
+}
+footer p {
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    /* For desktop: */
+    .navbar {
+        height: 60px;
+    }
+    .navbar .right span {
+        display: none;
+    }
+    .navlist {
+        list-style-type: none;
+        overflow: hidden;
+        height: 100%;
+        display: inherit;
+    }
+    .navlist li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        height: 100%;
+        transition: all 0.2s;
+    }
+    .navlist li a:hover:not(.here) {
+        border-bottom: 3px solid rgb(20, 42, 59);
+        box-shadow: inset 0 0 10px grey;
+        color: rgb(20, 42, 59);
+        background: #0195af;
+    }
+    .navlist li a:active:not(.here){
+        border-bottom: 3px solid rgb(20, 42, 59);
+        box-shadow: inset 0 0 10px grey;
+        color: rgb(20, 42, 59);
+        background: white;
+        transition: 0ms;
+    }
+    .navlist li a.here {
+        background: rgb(20, 42, 59);
+    }
+    .navlist li a.here:hover {
+        background: rgb(26, 56, 80);
+        border-bottom: 3px solid whitesmoke;
+    }
+    #close {
+        display: none;
+    }
+}

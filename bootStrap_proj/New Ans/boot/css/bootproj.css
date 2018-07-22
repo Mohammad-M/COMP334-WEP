@@ -1,0 +1,7 @@
+.submenu {min-height:30px}
+.submenu .navbar-brand,
+.submenu .navbar-nav>li>a {padding-top:5px; padding-bottom:5px}
+.submenu .navbar-brand {height: 30px}
+.submenu .navbar-toggle {margin: 3px 9px 3px 0px; padding: 4px 4px 4px 4px;}
+.submenu .navbar-toggle .icon-bar {width: 16px;}
+
