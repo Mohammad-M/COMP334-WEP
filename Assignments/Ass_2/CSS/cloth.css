@@ -1,0 +1,154 @@
+body{
+	background :#FFFBC0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    
+    width:75%;
+}
+nav a{
+    left:100px;
+	top:100px;
+	margin:50px;
+	background:#D8CA13;
+	text-align:center;
+	
+}
+
+
+
+nav a:hover{
+	font-size:120%;
+}
+
+
+.navimg{
+	left:10px;
+	top:10px;
+	background:none;
+}
+
+header{
+	font-family: sans-serif;
+	font-size : 100%;
+}
+
+section{
+	font-family: times;
+	font-size : 120%;
+
+}
+ul{
+	background:url("../image/back1.jpg") no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    width:300px;
+}
+
+ul ul{
+	background:url("../image/back2.jpg") no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    width:150px;
+}
+ol{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    width:200px;
+    list-style:upper-arabic;
+}
+
+ol ol{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    width:150px;
+    list-style:lower-alpha;
+
+}
+dl{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    width:200px;
+}
+
+dt{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    width:200px;
+}
+dd{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:right;
+    width:150px;
+}
+
+
+.internal:hover{
+	color:white;
+	text-decoration: none;
+}
+.internal:visited{
+	color:black;
+	text-decoration: none;
+}
+.internal{
+	color:white;
+	text-decoration: none;
+}
+
+nav .internal:visited{
+	color:white
+	text-decoration: none;
+}
+nav .internal:hover{
+	color:black;
+	text-decoration: none;
+}
+
+figure{
+	left:10px;
+	top:10px;
+    
+	background :#FFFBC0;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+	text-align: auto;
+}
+
+figure img:hover{
+    border-style: solid;
+	transform: scale(1.40, 1.40);
+}
+
+.imgContainer {
+    display: inline-block;
+	list-style:none;
+	width:200px;
+	text-align: center;
+}
+nav figure figcaption {
+    
+    text-align: right;
+}
+figure figcaption {
+    
+    text-align: center;
+}
+.new {
+	color:red;
+	font-size:150%;
+}
+
+.sale{
+	color:green;
+	font-size:130%;
+}
