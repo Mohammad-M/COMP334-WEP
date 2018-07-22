@@ -1,0 +1,39 @@
+{
+  "name": "angular-component",
+  "homepage": "https://github.com/kennethlynne/angular-component",
+  "authors": [
+    "Kenneth Lynne <kenneth.lynne@gmail.com>"
+  ],
+  "description": "AngularJS decorator to simplify use of directives as self contained components",
+  "main": "ng-component.min.js",
+  "keywords": [
+    "angularjs",
+    "convention over configuration",
+    "component",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.16"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.16"
+  },
+  "_release": "e853a26735",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e853a267353eb5600c6074ba43c09ba25e0bdd76"
+  },
+  "_source": "https://github.com/kennethlynne/angular-component.git",
+  "_target": "*",
+  "_originalSource": "angular-component",
+  "_direct": true
+}
