@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var i;
+var text = "";
+for (i = 1; i < 10; i++) {
+    text += i + "<br>";
+}
+
+</script>
+
+<h2>JavaScript Loops Ex</h2>
+<button type="button" onclick="document.getElementById('demo').innerHTML = text;" >Click Me!</button>
+<p id="demo"></p>
+
+
+<hr>
+<p>Click the button to display "Many other useful methods exist within the String class" after the split by " ", search for"useful", match "in"</p>
+<script>
+function myFunction() {
+    var str = "Many other useful methods exist within the String class";
+    var res = str.split(" ");
+	var sh = str.search("useful");
+	var ma = str.match(/in/g);
+    document.getElementById("splitdemo").innerHTML = res;
+	document.getElementById("searchdemo").innerHTML = sh;
+	document.getElementById("matchdemo").innerHTML = ma;
+	
+}
+</script>
+<button onclick="myFunction()">Split + search + match</button>
+
+
+<p id="splitdemo">Many other useful methods exist within the String class</p><hr>
+<p id="searchdemo">search for "useful"</p><hr>
+<p id="matchdemo">match 'in'</p>
+
+
+
+
+</body>
+</html>
